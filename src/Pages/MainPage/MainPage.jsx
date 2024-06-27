@@ -13,7 +13,7 @@ const MainPage = () => {
     const apiKey = process.env.REACT_APP_WEATHERAPI_KEY;
 
     const city = 'Mumbai';
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city},India`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city},India`;
 
     
 

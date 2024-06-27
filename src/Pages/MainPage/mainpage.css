@@ -1,0 +1,36 @@
+.card-display{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-display-top{
+    height: 22vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.card-display-bottom{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-display-top-1{
+    height: 22vw;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-display-top-2{
+    height: 22vw;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

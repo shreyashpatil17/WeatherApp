@@ -1,0 +1,27 @@
+.navbar{
+    height: 5vw;
+    width: 100%;
+    background-color: rgb(60, 190, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+.nav-logo img{
+    width: 4vw;
+    height: 4vw;
+}
+
+.nav-logo h1{
+    font-size: 2vw;
+    font-weight: 700;
+    color: white;
+}

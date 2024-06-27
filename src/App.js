@@ -1,12 +1,11 @@
 import './App.css';
+import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
 
-  const apiKey = process.env.REACT_APP_WEATHERAPI_KEY;
-  console.log(apiKey);
-
   return (
     <div className="App">
+      <MainPage/>
       
     </div>
   );

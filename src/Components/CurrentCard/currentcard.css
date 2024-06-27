@@ -1,0 +1,38 @@
+.current-card{
+    height : 20vw;
+    width: 50vw;
+    background-color: white;
+    border-radius: 1.5vw;
+    box-Shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25) ;
+}
+
+.current-card h3{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-left: 0.8vw;
+}
+
+.current-card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.current-card-top img{
+    height: 6vw;
+    width: 6vw;   
+}
+.current-card-top h3{
+    font-size: 1.8vw;   
+}
+
+.current-card-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.current-card-bottom-1{
+    margin-left: 1vw;
+}
+.current-card-bottom-2{
+    margin-left: 4vw;
+}
